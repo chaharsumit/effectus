@@ -1,0 +1,99 @@
+.view-tenth img {
+   -webkit-transform: scaleY(1) !important;
+   -moz-transform: scaleY(1) !important;
+   -o-transform: scaleY(1) !important;
+   -ms-transform: scaleY(1) !important;
+   transform: scaleY(1) !important;
+   -webkit-transition: all 0.7s ease-in-out !important;
+   -moz-transition: all 0.7s ease-in-out !important;
+   -o-transition: all 0.7s ease-in-out !important;
+   -ms-transition: all 0.7s ease-in-out !important;
+   transition: all 0.7s ease-in-out !important;
+}
+.view-tenth .mask {
+   background-color: rgba(255, 231, 179, 0.3) !important;
+   -webkit-transition: all 0.5s linear !important; 
+   -moz-transition: all 0.5s linear !important;
+   -o-transition: all 0.5s linear !important; 
+   -ms-transition: all 0.5s linear !important;
+   transition: all 0.5s linear !important;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+   filter: alpha(opacity=0) !important;
+   opacity: 0 !important;
+}
+.view-tenth h2 {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+   background: transparent !important;
+   margin: 20px 40px 0px 40px !important;  
+   -webkit-transform: scale(0) !important;
+   -moz-transform: scale(0) !important;
+   -o-transform: scale(0) !important;
+   -ms-transform: scale(0) !important;
+   transform: scale(0) !important;
+   color: #333 !important;
+   -webkit-transition: all 0.5s linear !important;
+   -moz-transition: all 0.5s linear !important;
+   -o-transition: all 0.5s linear !important;
+   -ms-transition: all 0.5s linear !important;
+   transition: all 0.5s linear !important;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+   filter: alpha(opacity=0) !important;
+   opacity: 0 !important;
+}
+.view-tenth p {
+   color: #333 !important;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+   filter: alpha(opacity=0) !important;
+   opacity: 0 !important;
+   -webkit-transform: scale(0) !important;
+   -moz-transform: scale(0) !important;
+   -o-transform: scale(0) !important;
+   -ms-transform: scale(0) !important;
+   transform: scale(0) !important;
+   -webkit-transition: all 0.5s linear !important;
+   -moz-transition: all 0.5s linear !important;
+   -o-transition: all 0.5s linear !important;
+   -ms-transition: all 0.5s linear !important;
+   transition: all 0.5s linear !important;
+} 
+.view-tenth a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+   filter: alpha(opacity=0) !important;
+   opacity: 0 !important;
+   -webkit-transform: scale(0) !important;
+   -moz-transform: scale(0) !important;
+   -o-transform: scale(0) !important;
+   -ms-transform: scale(0) !important;
+   transform: scale(0) !important;
+   -webkit-transition: all 0.5s linear !important;
+   -moz-transition: all 0.5s linear !important;
+   -o-transition: all 0.5s linear !important; 
+   -ms-transition: all 0.5s linear !important;
+   transition: all 0.5s linear !important;
+}
+.view-tenth:hover img {
+   -webkit-transform: scale(10) !important;
+   -moz-transform: scale(10) !important;
+   -o-transform: scale(10) !important;
+   -ms-transform: scale(10) !important;
+   transform: scale(10) !important;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+   filter: alpha(opacity=0) !important;
+   opacity: 0;
+}
+.view-tenth:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+   filter: alpha(opacity=100) !important;
+   opacity: 1 !important;
+}
+.view-tenth:hover h2,.view-tenth:hover p,.view-tenth:hover a.info {
+   -webkit-transform: scale(1) !important;
+   -moz-transform: scale(1) !important;
+   -o-transform: scale(1) !important;
+   -ms-transform: scale(1) !important;
+   transform: scale(1) !important;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+   filter: alpha(opacity=100) !important;
+   opacity: 1 !important;
+}
+				
